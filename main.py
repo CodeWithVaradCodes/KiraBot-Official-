@@ -55,7 +55,7 @@ async def on_message(message):
         if ai_job_check(content):
             try:
                 await message.reply("Hello, Kira is an experienced full-stack developer. He will reply to you in 10 hours.\nPortfolio: https://your-portfolio-link.com")
-                kira_user = await client.fetch_user(YOUR_USER_ID)
+                kira_user = await client.fetch_user(Kiragamerz_95_)
                 await kira_user.send(f"📢 New Web Dev Job:\n{message.content}\nLink: {message.jump_url}")
             except Exception as e:
                 print("Error sending message:", e)
