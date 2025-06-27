@@ -3,7 +3,7 @@ import discord
 import openai
 import re
 
-TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
+TOKEN = '{TOKEN}'
 OPENAI_API_KEY = '7de5e98dee8dd69bf628b936fb0fd210c650e125b00fda14cabe9da3255cae0a'
 
 intents = discord.Intents.default()
